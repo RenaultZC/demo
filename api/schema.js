@@ -3,7 +3,7 @@ import {
   buildSchema
 } from 'graphql';
 import { fileLoader, mergeResolvers, mergeTypes } from 'merge-graphql-schemas'
-import db from './db'
+import db from './dao/db'
 
 const graphqlHTTP = require('koa-graphql')
 const path = require('path')
